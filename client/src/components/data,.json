@@ -1,0 +1,33 @@
+[
+    {
+        "image": "/equipments.jpeg",
+        "title": "Medical Equipments",
+        "text": "Provide medical supplies and equipments to healthcare centers."
+
+    },
+    {
+        "image": "/outreach.jpeg",
+        "title": "Health Education",
+        "text": "Offer health education and screening to marginalized groups."
+    },
+    {
+        "image": "/team.jpg",
+        "title": "Specialized Care",
+        "text": "Collaborate with healthcare professionals to deliver specialized care."
+    },
+    {
+        "image": "/continous.jpeg",
+        "title": "Sustainable Programs",
+        "text": "Establish sustainable healthcare programs for long term impact."
+    },
+    {
+        "image": "/aid.jpg",
+        "title": "Essential Supplies",
+        "text": "Distribute essential supplies e.g food, water, etc..."
+    },
+    {
+        "image": "/therapy.jpeg",
+        "title": "Psychological Support",
+        "text": "Provide psychological support and counselling."
+    }
+]
