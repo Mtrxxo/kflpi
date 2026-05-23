@@ -42,9 +42,13 @@
     padding: 3rem 0 0;
 }
 
-.about h2{
+.about h2, .people h2{
     text-align: center;
     font-size: 1.5rem;
+}
+
+.people h2{
+    margin-top: 2rem;
 }
 
 .objs{
@@ -53,6 +57,24 @@
     column-gap: 2rem;
     row-gap: 4rem;
     margin: 2rem 4rem 0;
+}
+
+.execs{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.exec{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 1rem 0 0;
+}
+
+.exec h3{
+    margin: 1rem 0;
 }
 
 .card img{
@@ -64,10 +86,6 @@
 
 .card-title, .card-info{
     padding: 0 1.5rem;
-}
-
-.container{
-    background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .card-title{

@@ -37,7 +37,35 @@ function Home(){
                     </div>
                 </section>
                 <section className="people">
-                    
+                    <h2>Our Executives</h2>
+                    <div className="execs">
+                        <article className="exec">
+                            <div className="image" style={{
+                                background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/chairman.jpg)`,
+                                height: '200px',
+                                width: '200px',
+                                borderRadius: '50%',
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'top center',
+                                backgroundRepeat: 'no-repeat'
+                            }}></div>
+                            <h3 className="title">Chairman</h3>
+                            <p className="exec-info">Chief Innocent Anayo Atuogu</p>
+                        </article>
+                        <article className="exec">
+                            <div className="image" style={{
+                                background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/secretary.jpg)`,
+                                height: '200px',
+                                width: '200px',
+                                borderRadius: '50%',
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'top center',
+                                backgroundRepeat: 'no-repeat'
+                            }}></div>
+                            <h3 className="title">Secretary</h3>
+                            <p className="exec-info">Hon. Comrade Sylvester Ugochukwu Emeana</p>
+                        </article>
+                    </div>
                 </section>
             </main>
         </div>
