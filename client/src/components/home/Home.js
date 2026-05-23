@@ -42,8 +42,8 @@ function Home(){
                         <article className="exec">
                             <div className="image" style={{
                                 background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/chairman.jpg)`,
-                                height: '200px',
-                                width: '200px',
+                                height: '300px',
+                                width: '300px',
                                 borderRadius: '50%',
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'top center',
@@ -55,8 +55,8 @@ function Home(){
                         <article className="exec">
                             <div className="image" style={{
                                 background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/secretary.jpg)`,
-                                height: '200px',
-                                width: '200px',
+                                height: '300px',
+                                width: '300px',
                                 borderRadius: '50%',
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'top center',
@@ -68,6 +68,29 @@ function Home(){
                     </div>
                 </section>
             </main>
+            <footer className="home_footer">
+                <div className="reach">
+                    <div className="addr">
+                        <h4>Addresses</h4>
+                        <p className="addr1">
+                            1871, White Plains Road, The Bronx, New York, United States
+                        </p>
+                        <p className="addr2">
+                            139, Owerri Orlu Road, Imo State, Nigeria
+                        </p>
+                    </div>
+                    <div className="contacts">
+                        <h4>Contact Us</h4>
+                        <div className="email">
+                            
+                        </div>
+                        <div className="phone">
+
+                        </div>
+                    </div>
+                </div>  
+                <p className="copyright">&copy; Copyright Kindness For The Less Priviledged 2026</p>
+            </footer>
         </div>
     )
 }
