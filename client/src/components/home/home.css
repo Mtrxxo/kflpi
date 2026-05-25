@@ -4,6 +4,7 @@
 
 .home_header{
     padding: 2rem 4rem 0;
+    height: 100vh;
 }
 
 .info{
@@ -128,4 +129,19 @@
 .addr p{
     margin-bottom: 1rem;
     font-size: 0.8rem;
+}
+
+@media(max-width: 767px){
+    .home_header{
+        padding: 1rem 1rem 0;
+        height: 75vh;
+    }
+
+    .brand-title{
+        font-size: 2rem;
+    }
+
+    .info p{
+        font-size: 1.2rem;
+    }
 }

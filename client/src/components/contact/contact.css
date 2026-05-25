@@ -1,0 +1,47 @@
+form{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+form div{
+    margin-bottom: 1rem;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+input{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #111;
+    font-size: 1.2rem;
+}
+
+textarea{
+    width: 250px;
+    height: 250px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #111;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+}

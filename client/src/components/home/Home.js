@@ -7,7 +7,6 @@ function Home(){
     return(
         <div className="home">
             <header className="home_header" style={{
-                height: '100vh',
                 background: 'linear-gradient(rgba(15, 76, 129, 0.7), rgba(15, 76, 129, 0.7)), url(/header.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
