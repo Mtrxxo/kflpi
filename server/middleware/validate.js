@@ -4,7 +4,7 @@ export const validateInput = (schema) => (req, res, next) => {
         stripUnknown: true
     });
 
-    if(error) res.json({message: 'There was an error in user input.'})
+    if(error) res.json({"message": 'There was an error in user input.'})
 
     req.validatedBody = value;
 

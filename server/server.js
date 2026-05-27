@@ -12,6 +12,8 @@ const FR_URL = process.env.FR_URL;
 const PORT = process.env.PORT;
 const MONGO_URL = process.env.MONGO_URL;
 
+const router = require('./router/contactRouter');
+
 app.use(cors({
     origin: (origin, callback) => {
         if(!origin) return callback(null, true)
@@ -32,6 +34,8 @@ app.use(mongoSanitize({
 }));
 
 app.use(xssSanitize());
+
+app.use('/api', router)
 
 mongoose.connect(MONGO_URL).then(() => {
     app.listen(PORT, () => console.log(`App is listening on port ${PORT}`));

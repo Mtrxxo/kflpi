@@ -8,9 +8,9 @@ const sendMessage = async(req, res) => {
             ...data
         });
 
-        res.json({message: "Successfully sent message."})
+        res.json({"message": "Successfully sent message."})
     }catch(err){
-        res.json({message: 'Message not sent. Try sending it later.'})
+        res.json({"message": 'Message not sent. Try sending it later.'})
     }
 }
 
