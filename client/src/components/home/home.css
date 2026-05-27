@@ -144,4 +144,29 @@
     .info p{
         font-size: 1.2rem;
     }
+
+    .objs{
+        margin: 2rem 1rem 0;
+    }
+
+    .card-title, .card-info{
+        padding: 0;
+        text-align: center;
+    }
+
+    .card-title{
+        margin-top: 1rem;
+    }
+
+    .execs{
+        flex-flow: column nowrap;
+    }
+
+    .addr, .contacts{
+        width: 50%;
+    }
+
+    .contacts h4{
+        text-align: end;
+    }
 }

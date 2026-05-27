@@ -27,6 +27,10 @@
     text-decoration: none;
 }
 
+.nav_item a:focus, .nav_item a:hover{
+    text-decoration: underline;
+}
+
 @media(max-width: 767px){
     .logo{
         width: 50px;
