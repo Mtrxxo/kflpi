@@ -99,8 +99,8 @@
 
 .home_footer{
     background: linear-gradient(rgba(15, 76, 129, 0.7), rgba(15, 76, 129, 0.7));
-    height: 40vh;
-    position: sticky;
+    min-height: 40vh;
+    bottom: 0;
     padding: 2rem;
     color: #f5f5f5;
     display: flex;
@@ -131,6 +131,20 @@
     font-size: 0.8rem;
 }
 
+.email, .phone{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.phone p{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.25rem;
+}
+
 @media(max-width: 767px){
     .home_header{
         padding: 1rem 1rem 0;
@@ -158,15 +172,30 @@
         margin-top: 1rem;
     }
 
+    .people{
+        margin-top: 6rem;
+    }
+
     .execs{
         flex-flow: column nowrap;
     }
 
-    .addr, .contacts{
-        width: 50%;
+    .home_footer{
+        padding-bottom: 1rem;
     }
+
+    .reach{
+        flex-flow: column nowrap;
+        gap: 2rem;
+    }
+
+    .copyright{
+        margin-top: 2rem;
+    }
+
+    /*
 
     .contacts h4{
         text-align: end;
-    }
+    } */
 }

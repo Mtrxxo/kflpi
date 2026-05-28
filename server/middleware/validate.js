@@ -1,4 +1,4 @@
-export const validateInput = (schema) => (req, res, next) => {
+const validateInput = (schema) => (req, res, next) => {
     const { value, error } = schema.validate(req.body, {
         abortEarly: false,
         stripUnknown: true
@@ -10,3 +10,5 @@ export const validateInput = (schema) => (req, res, next) => {
 
     next();
 }
+
+module.exports = validateInput

@@ -7,6 +7,6 @@ const logic = require('../controller/contactController');
 
 const router = express.Router();
 
-router.post('/contact', rateLimiter, xssSanitize.paramSanitize(), validate.validateInput(schema), logic);
+router.post('/contact', rateLimiter, xssSanitize.paramSanitize(), validate(schema), logic);
 
 module.exports = router;

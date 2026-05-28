@@ -72,19 +72,26 @@ function Home(){
                     <div className="addr">
                         <h4>Addresses</h4>
                         <p className="addr1">
-                            1871, White Plains Road, The Bronx, New York, United States
+                            No. 82 Ralph Shodeinde Street, Central Business District, Abuja.
                         </p>
                         <p className="addr2">
-                            139, Owerri Orlu Road, Imo State, Nigeria
+                            No. 101 Orlu Road, Owerri, Akwakuma, Imo.
                         </p>
                     </div>
                     <div className="contacts">
                         <h4>Contact Us</h4>
                         <div className="email">
-                            
+                            <img src="/envelope-fill.svg" alt="Email" />
+                            <p>kindnessforlessprivilege@gmail.com</p>
                         </div>
                         <div className="phone">
-
+                            <img src="/telephone-fill.svg" alt="Phone" />
+                            <p>
+                                <span>+234</span>
+                                <span>706</span>
+                                <span>556</span>
+                                <span>9468</span>
+                            </p>
                         </div>
                     </div>
                 </div>  

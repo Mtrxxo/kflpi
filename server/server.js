@@ -23,7 +23,7 @@ app.use(cors({
         return callback(new Error("Origin is unknown."))
     },
     credentials: true,
-    allowedHeaders: 'content-type',
+    allowedHeaders: ['Content-Type'],
     methods: ['POST', 'GET', 'DELETE', 'PATCH', 'OPTIONS']
 }));
 
